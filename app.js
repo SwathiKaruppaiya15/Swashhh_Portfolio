@@ -38,3 +38,13 @@ closeIcon.addEventListener("click", function(){
 function go(url){
     window.open(url, "_blank");
 }
+
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+  loader.style.transition = "1.2s ease";
+  loader.style.transform = "scale(2)";
+  loader.style.opacity = "0";
+
+  setTimeout(() => loader.remove(), 1200);
+});
+
