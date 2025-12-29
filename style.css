@@ -294,7 +294,7 @@ header ul a:hover{
 .card h1{
     position: absolute;
     margin: 0;
-    bottom: 40%;
+    bottom: 30%;
     left: 5%;
     font-size: 25px;
     z-index: 1;
@@ -1205,8 +1205,8 @@ header ul a:hover{
     }
 
     .card h1{
-        margin-top: 45px;
-        bottom: 50%;
+        /* margin-top: 45px; */
+        bottom: 30%;
         font-size: 5px;
     }
     .card p{
